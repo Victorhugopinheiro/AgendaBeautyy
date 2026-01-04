@@ -9,7 +9,7 @@ export function HeaderDoctor() {
             <div className="container mx-auto">
                 <main className="flex justify-center">
 
-                    <article className="flex flex-col space-y-8 max-w-2xl">
+                    <article className="flex flex-col space-y-8 py-2 max-w-2xl">
                         <h1 className="text-4xl font-bold max-w-xl tracking-tight">
                             Sua agenda organizada, sem complicação.
                         </h1>
