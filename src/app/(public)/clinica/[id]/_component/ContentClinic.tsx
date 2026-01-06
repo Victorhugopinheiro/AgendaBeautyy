@@ -313,7 +313,7 @@ export function ContentClinic({ clinic }: UserProps) {
                                                             const time = service.duration / 60 < 1 ? `${service.duration}Min` : `${Math.floor(service.duration / 60)}H:${service.duration % 60}Min`
 
                                                             return (
-                                                                <SelectItem key={service.id} value={service.id}>{service.name} - {time}</SelectItem>
+                                                                <SelectItem key={service.id} value={service.id}>{service.name} </SelectItem>
                                                             )
                                                         })}
 
