@@ -39,7 +39,7 @@ Este projeto é uma plataforma completa de agendamento e gestão para clínicas 
 <img width="400" height="600" alt="ImageClinic_home" src="https://github.com/user-attachments/assets/8e7be798-4a72-415f-9c37-7e9fadadab5f" />
 <img width="400" height="600" alt="ImageClinic_Perfil" src="https://github.com/user-attachments/assets/7336e8d2-011c-4a46-86f7-280e6c3a3a80" />
 <img width="400" height="600" alt="ImageClinic_Lembretes" src="https://github.com/user-attachments/assets/e148b02c-21a8-42c4-be0a-856739b884f7" />
-<img width="820" height="600" alt="ImageClinic_Serviços" src="https://github.com/user-attachments/assets/36c990c2-d9ea-453f-bad2-6256757472ac" />
+<img width="400" height="600" alt="ImageClinic_Serviços" src="https://github.com/user-attachments/assets/36c990c2-d9ea-453f-bad2-6256757472ac" />
 
 
 
