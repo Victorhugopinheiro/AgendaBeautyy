@@ -12,6 +12,9 @@ import { ShowLimitPlan } from "@/components/show-limit-plan"
 
 export default async function Dashboard() {
 
+
+    console.log("entrou no dashboard")
+
     const session = await getsession()
 
     if (!session) {
@@ -39,7 +42,7 @@ export default async function Dashboard() {
                 </div>
             )}
 
-            {hasPermission.planId === "TRIAL" && (
+            {hasPermission.planId != "EXPIRED" && (
                 <div className="flex w-full my-2 bg-green-500 rounded-md  ">
                     <p className="text-white p-2 font-semibold">
                         {hasPermission.message}
