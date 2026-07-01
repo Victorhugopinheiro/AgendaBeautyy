@@ -1,4 +1,4 @@
-<img width="200" height="300" alt="ImageClinic_Agendar" src="https://github.com/user-attachments/assets/ba438afc-0c00-4ca6-8034-8b5342da5de6" />
+
 # 📅 Sistema de Agendamento SaaS para Clínicas de Estética
 
 Este projeto é uma plataforma completa de agendamento e gestão para clínicas de estética e salões de beleza. O sistema funciona no modelo SaaS (Software as a Service), permitindo que clínicas se cadastrem, configurem seus serviços e recebam agendamentos de clientes com validação inteligente de horários.
@@ -32,6 +32,9 @@ Este projeto é uma plataforma completa de agendamento e gestão para clínicas 
 ## 📸 Screenshots
 
 *(Coloque aqui prints das telas do seu projeto: Tela de Login, Dashboard da Clínica, Tela de Agendamento do Cliente)*
+<img width="200" height="1276" alt="ImageClinic_Agendar" src="https://github.com/user-attachments/assets/ba438afc-0c00-4ca6-8034-8b5342da5de6" />
+<img width="300" height="1276" alt="ImageClinic_Checkout" src="https://github.com/user-attachments/assets/5124ee89-70b4-447e-879b-34ab830d3fea" />
+
 
 ## 🔧 Como rodar o projeto
 
