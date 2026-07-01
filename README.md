@@ -36,4 +36,65 @@ Este projeto é uma plataforma completa de agendamento e gestão para clínicas 
 
 1. Clone o repositório:
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Crie o arquivo de ambiente:
+```bash
+copy .env.example .env
+```
+
+4. Preencha as variáveis do arquivo `.env` com suas credenciais:
+- `DATABASE_URL`
+- `AUTH_SECRET`
+- `AUTH_GITHUB_ID`
+- `AUTH_GITHUB_SECRET`
+- `AUTH_GOOGLE_ID`
+- `AUTH_GOOGLE_SECRET`
+- `NEXT_PUBLIC_URL`
+- `NEXT_PUBLIC_STRIPE_PUBLIC_KEY`
+- `STRIPE_SECRET_KEY`
+- `STRIPE_SECRET_WEBHOOK_KEY`
+- `STRIPE_PLAN_BASIC`
+- `STRIPE_PLAN_PROFISSIONAL`
+- `STRIPE_SUCCESS_URL`
+- `STRIPE_CANCEL_URL`
+- `CLOUDINARY_NAME`
+- `CLOUDINARY_KEY`
+- `CLOUDINARY_SECRET`
+
+5. Prepare o banco de dados com Prisma:
+```bash
+npx prisma generate
+npx prisma migrate dev
+```
+
+6. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+
+7. Acesse o projeto em:
+```bash
+http://localhost:3000
+```
+
+## 🚀 Outros comandos úteis
+
+```bash
+npm run build
+npm start
+npm run lint
+npm run stripe:listen
+```
+
+## 📝 Observações
+
+- Este projeto usa Next.js, Prisma, PostgreSQL, Auth.js e Stripe.
+- O arquivo `.env.example` contém apenas os nomes das variáveis para facilitar a configuração no GitHub.
